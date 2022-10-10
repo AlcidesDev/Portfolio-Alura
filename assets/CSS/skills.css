@@ -1,0 +1,32 @@
+
+
+.skills__title{
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+
+.skills__technologies{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.skills__technology{
+    width: 40%;
+    height: 7rem;
+    background-color: var(--background-blue);
+    margin: 0.5rem;
+}
+
+@media screen and (min-width: 768px){
+    .skills__technology{
+        width:30%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .skills__technology{
+        width:15%;
+    }
+}

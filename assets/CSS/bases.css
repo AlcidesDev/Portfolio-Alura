@@ -1,0 +1,10 @@
+.container{
+    padding: 0.7rem;
+}
+
+:root{
+    --font-black:#131313;
+    --font-grey:#464646;
+    --background-blue:#EAF2FD;
+}
+

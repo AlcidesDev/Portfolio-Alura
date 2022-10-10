@@ -1,0 +1,11 @@
+.footer{
+
+text-align: center;
+padding: 2rem;
+}
+
+.footer__text{
+    margin: auto;
+    width: 80%;
+    font-weight: 200;
+}

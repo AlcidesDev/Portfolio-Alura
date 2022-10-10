@@ -1,0 +1,30 @@
+.hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.hobbies__title{
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+
+.hobbies__hobbie{
+    width: 40%;
+    height: 7rem;
+    background-color: var(--background-blue);
+    margin: 0.5rem;
+}
+
+@media screen and (min-width: 768px){
+    .hobbies__hobbie{
+        width:30%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .hobbies__hobbie{
+        width:15%;
+    }
+}
