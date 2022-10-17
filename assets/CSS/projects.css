@@ -1,7 +1,14 @@
+
+.projects{
+    background: rgb(255,61,0);
+    background: linear-gradient(0deg, rgba(255,61,0,1) 0%, rgba(196,47,0,1) 28%, rgba(0,0,0,1) 65%);
+}
+
 .projects__title{
     font-weight: bold;
     text-align: center;
     margin: 1rem;
+    color: orangered;
 }
 
 .projects__project{

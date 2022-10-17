@@ -1,3 +1,11 @@
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) ,url("../img/background.jpg")no-repeat center;
+    background-size: cover;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.605);
+    color: orangered;
+}
 .header__container{
     display: flex;
     justify-content: space-between;
@@ -10,7 +18,7 @@
 }
 .header__email{
     font-size: 14px;
-    color: var(--font-grey);
+    color: orange;
 }
 .header__list{
     display: none;

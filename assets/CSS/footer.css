@@ -1,10 +1,11 @@
 .footer{
-
+background-color: black;
 text-align: center;
 padding: 2rem;
 }
 
 .footer__text{
+    color: orangered;
     margin: auto;
     width: 80%;
     font-weight: 200;

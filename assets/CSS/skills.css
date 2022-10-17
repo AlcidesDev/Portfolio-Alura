@@ -1,9 +1,13 @@
 
+.skills{
+    background-color: black;
+}
 
 .skills__title{
     font-weight: bold;
     text-align: center;
     margin: 1rem;
+    color: orangered;
 }
 
 .skills__technologies{
@@ -14,9 +18,34 @@ justify-content: center;
 
 .skills__technology{
     width: 40%;
-    height: 7rem;
-    background-color: var(--background-blue);
+    height: 12rem;
+    background-color: darkorange;
     margin: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    font-weight: bold;
+    gap: 1rem;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+.skills__technology--img{
+    width: 60px;
+    height: 60px;
+}
+.skills__technology:nth-child(3) img{
+    width: 80px;
+    height: 60px;
+}
+.skills__technology:nth-child(7) img{
+    width: 110px;
+    height: 60px;
+}
+.skills__technology:nth-child(8) img{
+    width: 80px;
+    height: 60px;
 }
 
 @media screen and (min-width: 768px){

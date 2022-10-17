@@ -1,10 +1,20 @@
 @import url(./bases.css);
 .aboutMe{
-    padding: 1rem;
-    background-color: var(--background-blue);
+    padding: 1rem 2rem;
+    background-color: rgb(6, 4, 4);
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
 }
-
+.aboutMe__container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
 .abotMe__title{
     font-weight: bold;
     font-size: 1.5rem;
@@ -13,14 +23,64 @@
 
 .aboutMe__text{
     font-size: 0.8rem;
-    color: var(--font-grey);
+    color: white;
     margin-bottom: 1rem;
     
 }
+.aboutMe__img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        padding: 1rem;
+        border:solid 2px orangered;
+}
+.aboutMe__socialMedia__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 0;
+    gap: 1rem;
+}
 
-.aboutMe__signature{
-width: 2rem;
-height: 100px;
+.aboutMe__socialMedia__list--links{
+    font-weight: bold;
+    font-size: 14px;
+    color: orangered;
+}
+
+.hero__links i {
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .aboutMe{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutMe__container{
+        flex-direction: row;
+    }
+
+    .aboutMe__text{
+        font-size: 1.3rem;
+    }
+
+    .aboutMe__img{
+        width: 16rem;
+        height: 16rem;
+    }
+}
+
+@media screen and (min-width: 1050px){
+    .aboutMe__text{
+        
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 1440px){
@@ -28,7 +88,12 @@ height: 100px;
         padding: 3rem 6rem;
     }
     .aboutMe__text{
-        
-        width: 60%;
+        width: 55%;
+        line-height: 2rem;
+    }
+
+    .aboutMe__img{
+        width: 25rem;
+        height: 25rem;
     }
 }
